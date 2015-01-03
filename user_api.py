@@ -42,7 +42,7 @@ def delUser():
 	pass
 
 
-def credValid(username, password, is_json_str):
+def credValid(username, password, is_json_str = True):
 	"""
 	Validate the combination of username and password
 	"""
